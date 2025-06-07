@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flex Harmony</title>
+  <link rel="stylesheet" href="styles/style.css"/>
+  <script defer src="scripts/script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="sticky-nav">
+      <img src="assets/Logo.png" alt="Logo" class="logo">
+      <ul>
+        <li><a href="#offerings">Offerings</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Flex Harmony</h1>
+      <p>Spiritual Yoga & Holistic Wellness Studio</p>
+    </div>
+  </header>
+
+  <section id="offerings" class="offerings">
+    <div class="offering-card">💪 Pilates</div>
+    <h2>Our Offerings</h2>
+    <div class="offering-card">🧘‍♀️ Yoga Classes</div>
+    <div class="offering-card">🌀 Physiotherapy</div>
+    <div class="offering-card">🔥 Zumba & Weight Loss</div>
+    <div class="offering-card">🌿 Spiritual Healing</div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial active">"Life-changing experience!" – Priya</div>
+    <div class="testimonial">"Peaceful and rejuvenating." – Aarav</div>
+    <div class="testimonial">"The best yoga studio in Jaipur." – Meera</div>
+    <div class="slider-controls">
+      <button class="slider-prev">❮</button>
+      <button class="slider-next">❯</button>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-form">
+    <h2>Send Us a Message</h2>
+    <form action="https://usebasin.com/f/8a81192b6495" method="POST">
+      <div class="form-group"><input type="text" name="name" placeholder="Your Name" required></div>
+      <div class="form-group"><input type="email" name="email" placeholder="Your Email" required></div>
+      <div class="form-group"><input type="tel" name="mobile" placeholder="Mobile Number" required></div>
+      <div class="form-group"><textarea name="message" placeholder="Your Message" required></textarea></div>
+      <div class="form-group"><button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button></div>
+    </form>
+  </section>
+
+  <a href="https://wa.me/918764277393" class="whatsapp-button" target="_blank">💬 Chat with us</a>
+
+  <!-- Chatbase chatbot embed -->
+  <script>
+    window.chatbaseConfig = {
+      chatbotId: "gXWfeRUg6Fsj1EgQI7veE"
+    }
+  </script>
+  <script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="gXWfeRUg6Fsj1EgQI7veE"
+    defer>
+  </script>
+</body>
+</html>
